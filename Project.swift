@@ -27,6 +27,7 @@ let project = Project(
 			destinations: .iOS,
 			product: .app,
 			bundleId: "ru.ioskendev.MdEditor",
+			infoPlist: "Resources/Info.plist",
 			sources: ["Sources/**"],
 			resources: ["Resources/**"],
 			scripts: scripts
