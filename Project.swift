@@ -26,7 +26,7 @@ let project = Project(
 			name: "App",
 			destinations: .iOS,
 			product: .app,
-			bundleId: "ru.ioskendev.MdEditor",
+			bundleId: "com.repakuku.MdEditor",
 			infoPlist: "Resources/Info.plist",
 			sources: ["Sources/**"],
 			resources: ["Resources/**"],
